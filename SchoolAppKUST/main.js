@@ -2,6 +2,9 @@
 // #ifndef VUE3
 import Vue from 'vue'
 import App from './App'
+import uView from "uview-ui";
+//使用uview-ui组价库
+Vue.use(uView);
 
 Vue.config.productionTip = false
 

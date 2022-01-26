@@ -1,15 +1,27 @@
 {
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
 	"pages": [{
-		"path": "pages/index/index",
-		"style": {
-			"navigationBarTitleText": "uni-app"
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "校园",
+				"navigationBarBackgroundColor": "#2b85e4",
+				"enablePullDownRefresh": false
+			}
 		}
-	}],
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8",
+		"navigationBarTitleText": "校园圈",
+		"navigationBarBackgroundColor": "#2b85e4",
+		"backgroundColor": "#f3c792",
 		"app-plus": {
 			"background": "#efeff4"
 		}
