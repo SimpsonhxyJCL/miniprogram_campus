@@ -1,17 +1,80 @@
 {
-	"pages": [{
-		"path": "pages/index/index",
-		"style": {
-			"navigationBarTitleText": "uni-app"
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "校园",
+				"navigationBarBackgroundColor": "#00aeec",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录-注册",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/circle/circle",
+			"style": {
+				"navigationBarTitleText": "圈子",
+				"navigationBarBackgroundColor": "#00aeec",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/share/share",
+			"style": {
+				"navigationBarTitleText": "分享",
+				"navigationBarBackgroundColor": "#00aeec",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#00aeec",
+				"enablePullDownRefresh": false
+			}
 		}
-	}],
+	],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "校园圈",
+		"navigationBarBackgroundColor": "#00aeec",
+		"backgroundColor": "#f4f4f4",
 		"app-plus": {
-			"background": "#efeff4"
+			"background": "#f4f4f4"
 		}
+	},
+	"tabBar": {
+		"color": "white", 
+		"backgroundColor": "#00aeec",
+		"borderStyle": "black",
+		"selectedColor": "white",
+		"fontSize":"25px",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "校园",
+				"selectedIconPath": "/static/logo.png"
+			},
+			{
+				"pagePath": "pages/share/share",
+				"text": "分享"
+			},
+			{
+				"pagePath": "pages/circle/circle",
+				"text": "圈子"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"text": "我的"
+			}
+		]
 	}
 }
