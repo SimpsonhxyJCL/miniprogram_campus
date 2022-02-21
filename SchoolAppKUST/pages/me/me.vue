@@ -3,8 +3,6 @@
 		<!-- <text>me</text> -->
 		<template>
 			<view class="avatar-group">
-				<!-- <u-button class="avator-buton1 fl" type="primary" size="mini" shape="circle" text="加好友"></u-button>
-				<u-button class="avator-buton1 fr" type="primary" size="mini" shape="circle" text="设置"></u-button> -->
 				<view class="">
 					<u-row customStyle="margin:10px  10px 10px 10px "  gutter="10">
 						<u-col span="4">
@@ -76,10 +74,11 @@
 
 	.avatar-img {
 		dispay: block;
-		width: 40px;
-		height: 40px;
-		background: red;
-		/* margin-top:175px; */
+		width: 50px;
+		height: 50px;
+		border-radius:15px;
+		background: white;
+		margin-top:100px; 
 		margin: auto;
 		/* text-align: center; */
 		position: relative;
